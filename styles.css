@@ -8,6 +8,7 @@
   margin: 0;
   padding: 0;
 }
+
 *,
 *::before,
 *::after {
@@ -319,14 +320,14 @@ i {
   height: 100%;
 }
 
-  .b-carousel__item {
-    position: relative;
-    flex: 0 0 100%;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+.b-carousel__item {
+  position: relative;
+  flex: 0 0 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .b-carousel__img {
   padding: 1rem;
